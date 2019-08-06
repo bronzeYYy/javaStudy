@@ -4,7 +4,7 @@
 
 ### CountDownLatch
 
-用于线程等待多个线程，等待这些线程都到达countDownLatch.countDown();
+用于线程等待多个线程都执行完了countDownLatch.countDown();前面的代码。线程到达后会继续执行，不会等待所有的线程都执行到此。
 
 
 
