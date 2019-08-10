@@ -1,7 +1,7 @@
 package sort;
 
 public interface Sort {
-    String QSORT = "qsort";
+    String QSORT = "qSort";
     String MERGE_SORT = "mergeSort";
     void sort(int[] a);
 }
